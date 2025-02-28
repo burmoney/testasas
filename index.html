@@ -1,247 +1,309 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title class="paragraph">roho7nailz.com</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>roho7nailz.com</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
 
-<link rel="shortcut icon" type="image/png" href="imgs/favicon.png"/>
+    <link href='https://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet'>
+    <style>
+    .hidden{
 
-	<style>
-		@font-face {
-			src: url(css/old.ttf);
-			font-family: nos;
-		}
-		.body{
-			background: black;
-		}
-		.paragraph {
-			font-size: 50px;
-			line-height: 62px;
-			font-family: nos;
-		}
-	</style>
-
-
-<style>
-
-
-
-/* remove bootstrap gutter*/
-.row.no-gutter {
-  margin-left: 0;
-  margin-right: 0;
+    }
+.jumbotron {
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('https://scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/37180211_277977819629094_5675545732564647936_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=Nqt2M2VL-u0AX_-4oUq&oh=43c9e6dcd04476ba58594d2623fffcea&oe=5E90B652');
 }
+    .paragraph {
+        font-family: 'UnifrakturMaguntia';
+        font-size: 50px;
+    line-height: 62px;
+    color:pink;
+    }
+    .pink {
+      color:pink;
+    }
 
-.row.no-gutter [class*='col-']:not(:first-child),
-.row.no-gutter [class*='col-']:not(:last-child) {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-
-/* the good stuff */
-body {
-}
-
-.img-featured-container {
-  overflow: hidden;
-  position: relative;
-}
-
-.img-featured-container img {
-  width: 100%;
- padding: 10px;
-}
-
-.img-featured-container .img-backdrop {
-  background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.img-featured-container:hover > .img-backdrop {
-  opacity: 1;
-}
-
-/* center text horizontally and vertically on image hover */
-.img-featured-container .description-container {
-  color: #fff;
-  font-size: 16px;
-  line-height: 1.2;
-  padding: 0 30px;
-  text-align: center;
-  line-height: 20px;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  z-index: 2;
-  opacity: 0;
-  transition: all .2s ease;
-}
-
-.img-featured-container .description-container .fa-instagram {
-  font-size: 40px;
-}
-
-.img-featured-container .description-container p {
-  font-weight: 300;
-  margin-bottom: 0;
-}
-
-.img-featured-container:hover .description-container {
-  opacity: 1;
-}
-
-.img-featured-container .description-container .caption {
-  display: none;
-  margin-bottom: 10px;
-}
-
-.img-featured-container .description-container .likes,
-.img-featured-container .description-container .comments {
-  margin: 0 5px;
-}
-
-/* load more button */
-#btn-instafeed-load {
-  color: #fff;
-  background: #26a3ff;
-  font-size: 16px;
-  margin: 20px auto;
-  padding: 8px 40px;
-  display: block;
-  border: none;
-}
-
-/* media queries  */
-@media screen and (min-width:768px) {
-  .img-featured-container .description-container .caption {
-    display: block;
-  }
-}</style>
-	<style>
-
-* {
-  margin: 0;
-  padding: 0;
-}
-html, body {
-  height: 100%;
-}
-section {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-section::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 80%;
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-}
-section h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
-  text-align: center;
-  white-space: nowrap;
-}
-
-#section01 { background: url(imgs/nailz.jpg) center center / cover no-repeat;}
-
-	</style>
+    </style>
 </head>
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<section id="section01" class="demo">
-  <h1 class="paragraph">roho7nailz</h1>
+                  
+                  
+                  
+                  
+                  
+            	
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="navbar navbar-expand navbar-dark bg-dark">
+   
+  <a  class="nav-link paragraph" href="https://burmoney.github.io/Placosostudiomx"><h1 class="paragraph" herf="https://burmoney.github.io/Placosostudiomx">Placosostudio</h1></a>
 
-</section>
+    </div></nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+                  
+           
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 offset-sm-3">
+                    <h1 class="paragraph">t(-_-,t)</h1>
+                  
+                    <form name="submit-to-google-sheet" id="submit-to-google-sheet" >
 
 
 
 
-<!-- partial:index.partial.html -->
-<div id="instafeed-gallery-feed" class="gallery row no-gutter">
+                      
+                  <input type="hidden" id="TimestampInput" /> <br>
 
-<!--  instagram feed will load here - markup below was used to structure images before loading them through instafeed -->
 
-<!--   <div class="col-xs-12 col-sm-4">
-    <a href="{{image}}" data-caption="{{model.user.username}}, {{likes}} likes">
-        <div class="img-featured-container">
-            <div class="img-backdrop"></div>
-            <div class="description-container">
-                <p>{{caption}}</p>
-            </div><img src="http://placehold.it/500x500" class="img-responsive">
-        </div>
-    </a>
-</div> -->
+                   Date:  <input name="Dateinput" type="date" id="DateInput" placeholder="date" class="form-control" onblur="validate()"/> <br />
 
+                   Time:
+
+                   <select name="Time" id="TimeInput" placeholder="time" class="form-control">
+   <option value="10:00 AM">10:00 AM</option>
+   <option value="11:00 AM">11:00 AM</option>
+   <option value="12:00 AM">12:00 PM</option>
+   <option value="1:00 PM">1:00 PM</option>
+  <option value="2:00 PM">2:00 PM</option>
+   <option value="3:00 PM">3:00 PM</option>
+   <option value="4:00 PM">4:00 PM</option>
+   <option value="5:00 PM">5:00 PM</option>
+ </select>
+                     <br />
+
+              <input name="EmailAddress" type="email" id="email" placeholder="email" class="form-control"  onblur="validate()" /> <br />
+
+  <input name="Name"  type="text" id="name" placeholder="Name" class="form-control"  onblur="validate()" /> <br />
+
+
+                <input name="Reason" id="ReasonInput" placeholder="phone number" class="form-control" onblur="validate()"/><br />
+
+
+                  <div class="form-group">
+                    <input id="myButton" type="submit" value="Book Now" onclick="myFunction()" disabled="disabled" />
+
+                  </div>
+
+
+            </form>
+
+
+
+
+
+    </div>
+  </div>
+</div>
 </div>
 
-<button id="btn-instafeed-load" class="btn">Load more</button>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js'></script>
+<script>
 
 
-	<script>
-	// How to get an access token:
-// http://jelled.com/instagram/access-token
 
-// TODO:
-// - improve UI
-// - make it easy to copy and paste image url
+	function validate() {
 
-// {{model.user.username}}, {{likes}} likes
+		var valid = true;
+		valid = checkEmpty($("#name"));
+	   valid = one($("#ReasonInput"));
+      valid = two($("#DateInput"));
+     DateInput
+		valid = valid && checkEmail($("#email"));
 
-var galleryFeed = new Instafeed({
-  get: "user",
-userId: 8306777100,
-  accessToken: "8306777100.1677ed0.e4b8d2d2f4894e31baca97d9d6fcb64b",
-  resolution: "standard_resolution",
-  useHttp: "true",
-  limit: 6,
-  template: '<div class="col-xs-12 col-sm-6 col-md-4"><a href="form.html"><div class="img-featured-container"><div class="img-backdrop"></div><div class="description-container"><p class="caption">{{caption}}</p><span class="likes"><i class="icon ion-heart"></i> {{likes}}</span><span class="comments" ><i class="icon ion-chatbubble"></i> {{comments}}</span></div><img src="{{image}}" class="img-responsive"></div></a></div>',
-  target: "instafeed-gallery-feed",
-  after: function() {
-    // disable button if no more results to load
-    if (!this.hasNext()) {
-      btnInstafeedLoad.setAttribute('disabled', 'disabled');
+		$("#myButton").attr("disabled",true);
+		if(valid) {
+			$("#myButton").attr("disabled",false);
+		}
+	}
+
+
+	function checkEmpty(obj) {
+		var name = $(obj).attr("name");
+		$("."+name+"-validation").html("");
+		$(obj).css("border","");
+		if($(obj).val() == "") {
+			$(obj).css("border","#FF0000 1px solid");
+			$("."+name+"-validation").html("Required");
+			return false;
+		}
+
+		return true;
+	}
+
+  function one(obj) {
+		var name = $(obj).attr("name");
+		$("."+name+"-validation").html("");
+		$(obj).css("border","");
+		if($(obj).val() == "") {
+			$(obj).css("border","#FF0000 1px solid");
+			$("."+name+"-validation").html("Required");
+			return false;
+		}
+
+		return true;
+	}
+  function two(obj) {
+    var name = $(obj).attr("name");
+    $("."+name+"-validation").html("");
+    $(obj).css("border","");
+    if($(obj).val() == "") {
+      $(obj).css("border","#FF0000 1px solid");
+      $("."+name+"-validation").html("Required");
+      return false;
     }
-  },
-});
-galleryFeed.run();
 
-var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
-btnInstafeedLoad.addEventListener("click", function() {
-  galleryFeed.next()
-});
+    return true;
+  }
 
-	</script>
+
+
+
+	function checkEmail(obj) {
+		var result = true;
+
+		var name = $(obj).attr("name");
+		$("."+name+"-validation").html("");
+		$(obj).css("border","");
+
+		result = checkEmpty(obj);
+
+		if(!result) {
+			$(obj).css("border","#FF0000 1px solid");
+			$("."+name+"-validation").html("Required");
+			return false;
+		}
+
+		var email_regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,3})+$/;
+		result = email_regex.test($(obj).val());
+
+		if(!result) {
+			$(obj).css("border","#FF0000 1px solid");
+			$("."+name+"-validation").html("Invalid");
+			return false;
+		}
+
+		return result;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready( function() {
+    var now = new Date();
+
+    var day = ("0" + now.getDate()).slice(-2);
+    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+    var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
+
+
+   $('#TimestampInput').val(today);
+});
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw6LR330uKqw47gUo7AJ-dBS3RHWtdAQXmAPHfqWCs/dev'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+         window.open('https://burmoney.github.io/Placosostudiomx');
+  })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+ <script>
+        $('form').on('submit', (e) => {
+          e.preventDefault();
+          const timestamp = $('#TimestampInput').val().trim();
+          const time = $('#TimeInput').val().trim();
+          const date = $('#DateInput').val().trim();
+          const email = $('#email').val().trim();
+          const subject = $('#name').val().trim();
+          const text = $('#ReasonInput').val().trim();
+
+          const data = {
+            timestamp,
+            time,
+            date,
+            email,
+            subject,
+            text
+          };
+
+          $.post("https://placosos-46b755818725.herokuapp.com/email", data, function() {
+              console.log('Server received our data');
+
+
+           });
+
+
+          });;
+
+
+
+
+      </script>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+
+
+
 
 </body>
 </html>
